@@ -29,7 +29,7 @@ Before we go forward with any Markdown syntax basics, I'd like to highlight the 
 Github will autolink standard URLs (such as the ones above under links) instead of needing to set link text.
 
 ####Strikethrough (GFM)####
-GFM adds syntax for strikethrough text, which is missing from standard Markdown. Use '~': '~~'Mistaken text.'~~' becomes:
+GFM adds syntax for strikethrough text, which is missing from standard Markdown. Use `~`: `~~`Mistaken text.`~~` becomes:
 ~~Mistaken text.~~
 
 ###Fenced code blocks###
