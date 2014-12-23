@@ -91,15 +91,32 @@ Hyphen list:
 - Life
 - Happiness
 
-All create:
+All will create the following output:
 
 ```
-    <ul>
-    <li>Candy.</li>
-    <li>Gum.</li>
-    <li>Booze.</li>
-    </ul>
+<ul>
+<li>Love</li>
+<li>Life</li>
+<li>Happiness</li>
+</ul>
 ```
+
+Ordered (numbered) lists use regular numbers followed by periods as list markers:
+1. First
+2. Second
+3. Third
+
+Output:
+```
+<ol>
+<li>Red</li>
+<li>Green</li>
+<li>Blue</li>
+</ol>
+
+```
+
+
 ###Github Flavored Markdown aka GFM###
 Before we go forward with any Markdown syntax basics, I'd like to highlight the Github exceptions since ultimately much of the markdown I write will be for Readmes on github.
 
