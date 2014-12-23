@@ -55,17 +55,16 @@ This is a regular paragraph, which is basically one or more consecutive lines of
 
 Phrase Emphasis:
 ----------------
-Use asterisks (`*`)
-The last word is *emphasized*.
-The last words _are also emphasized_.
-
-creates: `<em></em>`
-
-
-The last words are **strongly emphasized
+Using asterisks (`*`) to create `<em></em>`:
+The last word is *emphasized*. The last words of this sentence are **strongly emphasized
 with two asterisks**.
-The last words are __strongly emphasized with two underscores__.
-creates: `<strong> </strong>`
+
+Using underscores (`_`) to create `<strong> </strong>`:
+The last words is _emphasized_.
+The last words of this sentence are __strongly emphasized with two underscores__.
+
+
+
 
 Lists:
 -----
