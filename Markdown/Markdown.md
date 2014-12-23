@@ -14,7 +14,7 @@ Syntax in Markdown: http://daringfireball.net/projects/markdown/basics.text
 Practice via Dingus:
 http://daringfireball.net/projects/markdown/dingus
 
-[Github Flavored Markdown](/Markdown.md#github-flavored-markdown-aka-gfm/): https://help.github.com/articles/github-flavored-markdown/
+[Github Flavored Markdown](https://github.com/msyinmei/notes4codes/blob/master/Markdown/Markdown.md#github-flavored-markdown-aka-gfm/): https://help.github.com/articles/github-flavored-markdown/
 
 Guidelines/Tips & Tricks to Writing on Github: https://help.github.com/articles/writing-on-github/
 
