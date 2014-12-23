@@ -29,6 +29,11 @@ Alright, time for some basics!
 ####Setext-style headers####
 Setext-style headers for `<h1>` and `<h2>` are created by underlining with (any number of) equal signs (`=`) and hyphens (`-`) respectively by typing it in the following line (row of text).
 
+```
+First Level Setext-style Header with equal signs
+==========================================
+```
+
 First Level Setext-style Header with equal signs
 ==========================================
 
