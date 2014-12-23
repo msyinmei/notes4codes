@@ -16,6 +16,8 @@ http://daringfireball.net/projects/markdown/dingus
 
 Github Flavored Markdown: https://help.github.com/articles/github-flavored-markdown/
 
+Guidelines/Tips & Tricks to Writing on Github: https://help.github.com/articles/writing-on-github/
+
 EXAMPLES AND EXPLANATIONS:
 ---------------
 Escaping:
@@ -165,8 +167,8 @@ Hyphen list:
 
 
 
-*This part dysfunctional on Github?*
-Ordered (numbered) lists use regular numbers followed by periods as list markers:
+Ordered (numbered) lists use regular numbers followed by periods as list markers (be sure to have a blank line
+beforehand):
 
 1.   First
 2.   Second
@@ -185,7 +187,7 @@ Output:
 I'd also like to highlight the Github exceptions since ultimately much of the markdown I write will be for Readmes on github. I will refer to them as GFM.
 
 ####URL autolinking (GFM)####
-Github will autolink standard URLs (such as the ones above under links) instead of needing to set link text.
+Github will autolink standard URLs (such as the ones I've shared) instead of needing to set link text.
 
 ####Strikethrough (GFM)####
 GFM adds syntax for strikethrough text, which is missing from standard Markdown. Use a set of tilde symbols (`~`) twice: `~~`Mistaken text.`~~` becomes:
