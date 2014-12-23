@@ -16,35 +16,41 @@ http://daringfireball.net/projects/markdown/dingus
 
 Github Flavored Markdown: https://help.github.com/articles/github-flavored-markdown/
 
-SYNTAX EXAMPLES:
-================
-Setext-style headers for `<h1>` and `<h2>` are created by underlining with (any number of) equal signs (`=`) and hyphens (`-`) respectively by typing it in the following line (row of text).
-
-Atx-style headers are created by putting 1-6 hashmarks (`#`) at the beginning of the line (row of text). The number of the hashes equals the resulting HTML header level
-
+EXAMPLES AND EXPLANATIONS:
+---------------
 Escaping:
-P.S. I am able to type the hashtags and code above by escaping individual characters with the backtick '`' signs.
-There are also many other ways of escaping.
+P.S. I can escape individual characters with the backtick '`' signs.
+There are other ways to escape as well
 
-
-##Github Flavored Markdown aka GFM##
+###Github Flavored Markdown aka GFM###
 Before we go forward with any Markdown syntax basics, I'd like to highlight the Github exceptions since ultimately much of the markdown I write will be for Readmes on github.
 
-###URL autolinking (GFM)###
+####URL autolinking (GFM)####
 Github will autolink standard URLs (such as the ones above under links) instead of needing to set link text.
 
-###Strikethrough (GFM)###
-GFM adds syntax for strikethrough text, which is missing from standard Markdown. Use '~': '~'Mistaken text.'~' becomes:
-~Mistaken text.~
+####Strikethrough (GFM)####
+GFM adds syntax for strikethrough text, which is missing from standard Markdown. Use '~': '~~'Mistaken text.'~~' becomes:
+~~Mistaken text.~~
+
+###Fenced code blocks###
 
 
 ##Basic Examples##
+Alright, time for some basics!
+
+
+####Setext-style headers####
+Setext-style headers for `<h1>` and `<h2>` are created by underlining with (any number of) equal signs (`=`) and hyphens (`-`) respectively by typing it in the following line (row of text).
 
 First Level Setext-style Header with equal signs
 ==========================================
 
 Second Level Setext-style Header with hyphens
 -------------------------------------
+
+####Atx-style headers####
+Atx-style headers are created by putting 1-6 hashmarks (`#`) at the beginning of the line (row of text). The number of the hashes equals the resulting HTML header level
+
 
 #First Level Atx-style Header
 
@@ -58,14 +64,15 @@ Second Level Setext-style Header with hyphens
 
 ###### Sixth Level Atx-style Header
 
+####Blockquotes####
 > This is a blockquote. Create a blockquote by using email-style '`>`' angle brackets.
 >
 > You can create paragraphs in the blockquote. This is the second paragraph.
 >
 > ## This is a h2 header in the blockquote
 
+####Paragraphs####
 This is a regular paragraph, which is basically one or more consecutive lines of text separated by one or more blank lines. A blank line is a horizontal line of input that contains nothing but spaces or tabs. Normal paragraphs should not be indented with any spaces or tabs.
-
 
 ###Phrase Emphasis###
 Using asterisks (`*`) to create `<em></em>`:
