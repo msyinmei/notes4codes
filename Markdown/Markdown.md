@@ -101,6 +101,7 @@ All will create the following output:
 </ul>
 ```
 
+*Dysfunctional on Github?*
 Ordered (numbered) lists use regular numbers followed by periods as list markers:
 1. First
 2. Second
@@ -171,6 +172,7 @@ The extra pipes on the ends are not necessary, and dashes at the top don't need 
 ```
 
 #####Here is what you get#####
+
 |Column 1 Header | Column 2 Header|
 |--------------- | ---------------|
 |This is so      |  Manual        |
@@ -187,7 +189,9 @@ You can also align the text of the header row left, right or center by adding co
 | col 2 is      | centered        |   $12 |
 | zebra stripes | are neat        |    $1 |
 ```
+
 Here is how that looks:
+
 | Left-Aligned  | Center Aligned  | Right Aligned |
 | :------------ |:---------------:| -----:|
 | col 3 is      | some wordy text | $1600 |
