@@ -14,7 +14,7 @@ Syntax in Markdown: http://daringfireball.net/projects/markdown/basics.text
 Practice via Dingus:
 http://daringfireball.net/projects/markdown/dingus
 
-[Github Flavored Markdown](https://github.com/msyinmei/notes4codes/blob/master/Markdown/Markdown.md#github-flavored-markdown-aka-gfm): https://help.github.com/articles/github-flavored-markdown/
+[Github Flavored Markdown](/Markdown.md#github-flavored-markdown-aka-gfm/): https://help.github.com/articles/github-flavored-markdown/
 
 Guidelines/Tips & Tricks to Writing on Github: https://help.github.com/articles/writing-on-github/
 
@@ -182,6 +182,19 @@ Output:
 <li>Blue</li>
 </ol>
 ```
+
+Links
+
+```
+This is [an example](http://example.com/ "Title") inline link.
+
+[This link](http://example.net/) has no title attribute.
+```
+Will produce:
+
+This is [an example](http://example.com/ "Title") inline link.
+
+[This link](http://example.net/) has no title attribute.
 
 ###Github Flavored Markdown aka GFM###
 I'd also like to highlight the Github exceptions since ultimately much of the markdown I write will be for Readmes on github. I will refer to them as GFM.
