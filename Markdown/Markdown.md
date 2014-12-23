@@ -40,11 +40,11 @@ Standard Markdown converts text with four spaces at the beginning of each line i
 Example:
 
 function test(){
-  console.log("this is a test")
+  console.log("this is a test using `````")
 }
 ```
 
-    Try again
+    Try again with four spaces
 
 
 ##Basic Examples##
