@@ -27,6 +27,19 @@ P.S. I am able to type the hashtags and code above by escaping individual charac
 There are also many other ways of escaping.
 
 
+##Github Flavored Markdown aka GFM##
+Before we go forward with any Markdown syntax basics, I'd like to highlight the Github exceptions since ultimately much of the markdown I write will be for Readmes on github.
+
+###URL autolinking (GFM)###
+Github will autolink standard URLs (such as the ones above under links) instead of needing to set link text.
+
+###Strikethrough (GFM)###
+GFM adds syntax for strikethrough text, which is missing from standard Markdown. Use '~': '~'Mistaken text.'~' becomes:
+~Mistaken text.~
+
+
+##Basic Examples##
+
 First Level Setext-style Header with equal signs
 ==========================================
 
@@ -54,7 +67,7 @@ Second Level Setext-style Header with hyphens
 This is a regular paragraph, which is basically one or more consecutive lines of text separated by one or more blank lines. A blank line is a horizontal line of input that contains nothing but spaces or tabs. Normal paragraphs should not be indented with any spaces or tabs.
 
 
-###Phrase Emphasis###:
+###Phrase Emphasis###
 Using asterisks (`*`) to create `<em></em>`:
 The last word is *emphasized*. The last words of this sentence are **strongly emphasized
 with two asterisks**.
@@ -64,8 +77,6 @@ The last words is _emphasized_.
 The last words of this sentence are __strongly emphasized with two underscores__.
 
 However if you're using GFM (github flavored markdown), please note that while Markdown transforms underscores into italics, GFM ignores underscores in words to allow codes and names with multiple underscores to render properly.
-
-###URL autolinking (GFM)###
 
 ###Lists###
 
