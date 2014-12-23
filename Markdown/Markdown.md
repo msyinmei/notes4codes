@@ -116,9 +116,8 @@ Output:
 
 ```
 
-
 ###Github Flavored Markdown aka GFM###
-Before we go forward with any Markdown syntax basics, I'd like to highlight the Github exceptions since ultimately much of the markdown I write will be for Readmes on github.
+I'd also like to highlight the Github exceptions since ultimately much of the markdown I write will be for Readmes on github. I will refer to them as GFM.
 
 ####URL autolinking (GFM)####
 Github will autolink standard URLs (such as the ones above under links) instead of needing to set link text.
@@ -144,8 +143,56 @@ function test(){
 
 Within lists, you must indent non-fenced code blocks *eight* spaces to render properly.
 
-####Syntax highlighting####
+####Syntax highlighting (GFM)####
+GFM uses Linguist (https://github.com/github/linguist) to perform language detection and syntax highlighting.
 
+For keywords please visit https://github.com/github/linguist/blob/master/lib/linguist/languages.yml
+
+Code blocks can be taken a step further by adding syntax highlighting. In your fenced block, add an optional language identifier and we'll run it through syntax highlighting. For example, to syntax highlight Ruby code:
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
+####Tables (GFM)####
+You can create tables by assembling a list of words and dividing them with hyphens (`-`) for the first row. Then to create columns, separate each column with a pipe (`|`).
+
+The extra pipes on the ends are not necessary, and dashes at the top don't need to match the length of the header exactly.
+
+```
+|Column 1 Header | Column 2 Header|
+|--------------- | ---------------|
+|This is so      |  Manual        |
+|Content Cell    |  Content Cell  |
+|Discontent | Cell that refuses to match    |
+|Here is a cell with |inline Markdown ~~strikethrough~~|
+```
+
+#####Here is what you get#####
+|Column 1 Header | Column 2 Header|
+|--------------- | ---------------|
+|This is so      |  Manual        |
+|Content Cell    |  Content Cell  |
+|Discontent | Cell that refuses to match    |
+|Here is a cell with |inline Markdown ~~strikethrough~~|
+
+
+You can also align the text of the header row left, right or center by adding colons (`:`):
+```
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+```
+Here is how that looks:
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
 
 
 
