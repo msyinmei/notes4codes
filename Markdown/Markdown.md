@@ -25,7 +25,7 @@ EXAMPLES AND EXPLANATIONS:
 ---------------
 Escaping:
 P.S. I can escape individual characters with the backtick '`' signs.
-There are a few other ways to escape as well: [Just scroll to the bottom of this page](Markdown Basics documentation in Markdown: http://daringfireball.net/projects/markdown/basics.text)
+There are a few other ways to escape as well: [Just scroll to the bottom of this page](http://daringfireball.net/projects/markdown/basics.text)
 
 ##Basic Examples##
 Alright, time for some basics!
