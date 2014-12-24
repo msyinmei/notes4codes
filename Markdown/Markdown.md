@@ -196,6 +196,8 @@ This is [an example](http://example.com/ "Title") inline link.
 
 [This link](http://example.net/) has no title attribute.
 
+Here is a link to some more details about links: http://daringfireball.net/projects/markdown/syntax#link
+
 ###Github Flavored Markdown aka GFM###
 I'd also like to highlight the Github exceptions since ultimately much of the markdown I write will be for Readmes on github. I will refer to them as GFM.
 
