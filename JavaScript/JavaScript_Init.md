@@ -10,7 +10,7 @@ Note: For a fantastic reference on terminal commands to start your first apps, p
 
 How to start a Node.js app via the command line:
 
-```shell
+```bash
 ~ $ mkdir AppName
 ~ $ touch app.js
 ~ $ touch .gitignore
