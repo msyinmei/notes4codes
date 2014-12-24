@@ -232,17 +232,22 @@ For keywords please visit https://github.com/github/linguist/blob/master/lib/lin
 
 Code blocks can be taken a step further by adding syntax highlighting. In your fenced block, add an optional language identifier and we'll run it through syntax highlighting. For example, to syntax highlight Ruby code:
 
+Markdown Sample:
+
     ```ruby
     require 'redcarpet'
     markdown = Redcarpet.new("Hello World!")
     puts markdown.to_html
     ```
+Results:
 
 ```ruby
 require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
 ```
+
+
 
 ####Tables (GFM)####
 You can create tables by assembling a list of words and dividing them with hyphens (`-`) for the first row. Then to create columns, separate each column with a pipe (`|`).
