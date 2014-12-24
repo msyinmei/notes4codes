@@ -4,6 +4,10 @@ Markdown is a plain text formatting syntax designed to convert into HTML and man
 
 This document is a simple cheatsheet for my own reference created using the Markdown syntax. Some of the descriptions/explanations are actually from the following resources below, which you can visit directly. I take no credit for this as this is only a reference created for myself.
 
+
+***
+
+
 Official Sources & Links (really great references):
 ------
 Markdown Basics:
@@ -21,8 +25,10 @@ http://daringfireball.net/projects/markdown/dingus
 
 Guidelines/Tips & Tricks to Writing on Github: https://help.github.com/articles/writing-on-github/
 
+***
+
 EXAMPLES AND EXPLANATIONS:
----------------
+-------------------------
 Escaping:
 
 P.S. I can escape individual characters with the backtick '`' signs.
@@ -59,6 +65,8 @@ Results:
 Second Level setext-style header with hyphens
 -------------------------------------
 
+***
+
 ####Atx-style headers####
 Atx-style headers are created by putting 1-6 hashmarks (`#`) at the beginning of the line (row of text). The number of the hashes equals the resulting HTML header level
 
@@ -92,7 +100,7 @@ Results:
 
 ###### Sixth Level Atx-style Header
 
-
+***
 
 ####Blockquotes####
 
@@ -114,8 +122,12 @@ Results:
 >
 > ## This is a h2 header in the blockquote
 
+***
+
 ####Paragraphs####
 This is just a regular paragraph, which is basically one or more consecutive lines of text separated by one or more blank lines. A blank line is a horizontal line of input that contains nothing but spaces or tabs. Normal paragraphs should not be indented with any spaces or tabs.
+
+***
 
 ####Phrase Emphasis####
 Using asterisks (`*`) to create `<em></em>`:
@@ -148,8 +160,12 @@ The last words of this sentence are __strongly emphasized with two underscores__
 
 NOTE: However if you're using Markdown on Github, please note that while Markdown transforms underscores into italics, the Github Flavored Markdown aka GFM ignores underscores in words to allow codes and names with multiple underscores to render properly.
 
+***
 
 ####Lists####
+Unordered Lists & Ordered Lists
+
+
 #####Unordered Lists#####
 Unordered bulleted lists use asterisks, pluses and hyphens as list markers.
 
@@ -214,8 +230,9 @@ Output:
 <li>Blue</li>
 </ol>
 ```
+***
 
-Links
+####Links####
 
 Markdown:
 
@@ -230,10 +247,14 @@ This is [an example](http://example.com/ "Title") inline link.
 
 [This link](http://example.net/) has no title attribute.
 
-Here is a link to some more details about links: http://daringfireball.net/projects/markdown/syntax#link
+
+Here is are some links more details about how to use Markdown to create links:
+
+* [Markdown Original Specs](http://daringfireball.net/projects/markdown/syntax#link)
+* [Markdown CheatSheet via Markdown Here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links)
 
 ###Github Flavored Markdown aka GFM###
-I'd also like to highlight the Github exceptions since ultimately much of the markdown I write will be for Readmes on github. I will refer to them as GFM.
+I'd also like to highlight the Github exceptions since ultimately much of the markdown written will be for Readmes or Markdown files on Github. I will refer to them as GFM.
 
 ####URL autolinking (GFM)####
 Github will autolink standard URLs (such as the ones I've shared) instead of needing to set link text.
