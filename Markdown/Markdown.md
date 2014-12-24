@@ -27,28 +27,37 @@ There are other ways to escape as well
 ##Basic Examples##
 Alright, time for some basics!
 
-
 ####Setext-style headers####
 Setext-style headers for `<h1>` and `<h2>` are created by underlining with (any number of) equal signs (`=`) and hyphens (`-`) respectively by typing it in the following line (row of text).
 
+Markdown:
+
 ```
 First Level setext-style header with equal signs
 ==========================================
 ```
 
+Results:
+
 First Level setext-style header with equal signs
 ==========================================
+
+Markdown:
 
 ```
 Second Level setext-style header with hyphens
 -------------------------------------
 ```
+
+Results:
 
 Second Level setext-style header with hyphens
 -------------------------------------
 
 ####Atx-style headers####
 Atx-style headers are created by putting 1-6 hashmarks (`#`) at the beginning of the line (row of text). The number of the hashes equals the resulting HTML header level
+
+Markdown:
 
 ```
 #First Level Atx-style Header
@@ -63,6 +72,8 @@ Atx-style headers are created by putting 1-6 hashmarks (`#`) at the beginning of
 
 ###### Sixth Level Atx-style Header
 ```
+
+Results:
 
 #First Level Atx-style Header
 
@@ -80,6 +91,8 @@ Atx-style headers are created by putting 1-6 hashmarks (`#`) at the beginning of
 
 ####Blockquotes####
 
+Markdown:
+
 ```
 > This is a blockquote. Create a blockquote by using email-style '`>`' angle brackets.
 >
@@ -87,6 +100,8 @@ Atx-style headers are created by putting 1-6 hashmarks (`#`) at the beginning of
 >
 > ## This is a h2 header in the blockquote
 ```
+
+Results:
 
 > This is a blockquote. Create a blockquote by using email-style '`>`' angle brackets.
 >
@@ -100,20 +115,28 @@ This is just a regular paragraph, which is basically one or more consecutive lin
 ####Phrase Emphasis####
 Using asterisks (`*`) to create `<em></em>`:
 
+Markdown:
+
 ```
 The last word is *emphasized*. The last words of this sentence are **strongly emphasized
 with two asterisks**.
 ```
+
+Results:
 
 The last word is *emphasized*. The last words of this sentence are **strongly emphasized
 with two asterisks**.
 
 Using underscores (`_`) to create `<strong> </strong>`:
 
+Markdown:
+
 ```
 The last words is _emphasized_.
 The last words of this sentence are __strongly emphasized with two underscores__.
 ```
+
+Results:
 
 The last words is _emphasized_.
 The last words of this sentence are __strongly emphasized with two underscores__.
@@ -122,7 +145,10 @@ NOTE: However if you're using Markdown on Github, please note that while Markdow
 
 
 ####Lists####
+#####Unordered Lists#####
 Unordered bulleted lists use asterisks, pluses and hyphens as list markers.
+
+Markdown:
 
 ```
 Asterix list:
@@ -149,6 +175,7 @@ All will create the following output:
 <li>Happiness</li>
 </ul>
 ```
+Results:
 
 Asterix list:
 * Love
@@ -166,7 +193,7 @@ Hyphen list:
 - Happiness
 
 
-
+#####Ordered Lists#####
 Ordered (numbered) lists use regular numbers followed by periods as list markers (be sure to have a blank line
 beforehand):
 
@@ -185,12 +212,14 @@ Output:
 
 Links
 
+Markdown:
+
 ```
 This is [an example](http://example.com/ "Title") inline link.
 
 [This link](http://example.net/) has no title attribute.
 ```
-Will produce:
+Results:
 
 This is [an example](http://example.com/ "Title") inline link.
 
@@ -208,19 +237,19 @@ Github will autolink standard URLs (such as the ones I've shared) instead of nee
 GFM adds syntax for strikethrough text, which is missing from standard Markdown. Use a set of tilde symbols (`~`) twice: `~~`Mistaken text.`~~` becomes:
 ~~Mistaken text.~~
 
-###Fenced code blocks###
+###Fenced code blocks (GFM)###
 Standard Markdown converts text with four spaces at the beginning of each line into a code block; GFM also supports fenced blocks. Just wrap your code in ``` (as shown below) and you won't need to indent it by four spaces. Note that although fenced code blocks don't have to be preceded by a blank line—unlike indented code blocks—we recommend placing a blank line before them to make the raw Markdown easier to read.
 
+
 ```
-Example:
+Example1:
 function test(){
-  console.log("this is a test using '```'")
+  console.log("this is a test using '```' before each line ")
 }
 ```
-
     Example 2:
     function test2(){
-      console.log("This is a test using four spaces '    '")
+      console.log("This is a test using four spaces '    ' before each line")
     }
 
 Within lists, you must indent non-fenced code blocks *eight* spaces to render properly.
@@ -254,6 +283,8 @@ You can create tables by assembling a list of words and dividing them with hyphe
 
 The extra pipes on the ends are not necessary, and dashes at the top don't need to match the length of the header exactly.
 
+Markdown:
+
 ```
 |Column 1 Header | Column 2 Header|
 |--------------- | ---------------|
@@ -263,7 +294,7 @@ The extra pipes on the ends are not necessary, and dashes at the top don't need 
 |Here is a cell with |inline Markdown ~~strikethrough~~|
 ```
 
-#####Here is what you get#####
+Results:
 
 |Column 1 Header | Column 2 Header|
 |--------------- | ---------------|
@@ -274,6 +305,9 @@ The extra pipes on the ends are not necessary, and dashes at the top don't need 
 
 
 You can also align the text of the header row left, right or center by adding colons (`:`):
+
+Markdown:
+
 ```
 | Left-Aligned  | Center Aligned  | Right Aligned |
 | :------------ |:---------------:| -----:|
@@ -281,6 +315,7 @@ You can also align the text of the header row left, right or center by adding co
 | col 2 is      | centered        |   $12 |
 | zebra stripes | are neat        |    $1 |
 ```
+Results:
 
 Here is how that looks:
 
