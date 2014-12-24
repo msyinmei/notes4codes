@@ -6,10 +6,13 @@ This document is a simple cheatsheet for my own reference created using the Mark
 
 Official Sources & Links (really great references):
 ------
-Syntax:
+Markdown Basics:
 http://daringfireball.net/projects/markdown/basics
 
-Syntax in Markdown: http://daringfireball.net/projects/markdown/basics.text
+Markdown Basics documentation displayed in Markdown: http://daringfireball.net/projects/markdown/basics.text
+
+Markdown Syntax:
+http://daringfireball.net/projects/markdown/syntax
 
 Practice via Dingus:
 http://daringfireball.net/projects/markdown/dingus
@@ -22,7 +25,7 @@ EXAMPLES AND EXPLANATIONS:
 ---------------
 Escaping:
 P.S. I can escape individual characters with the backtick '`' signs.
-There are other ways to escape as well
+There are a few other ways to escape as well: [Just scroll to the bottom of this page](Markdown Basics documentation in Markdown: http://daringfireball.net/projects/markdown/basics.text)
 
 ##Basic Examples##
 Alright, time for some basics!
