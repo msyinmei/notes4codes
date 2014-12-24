@@ -253,6 +253,8 @@ Here is are some links more details about how to use Markdown to create links:
 * [Markdown Original Specs](http://daringfireball.net/projects/markdown/syntax#link)
 * [Markdown CheatSheet via Markdown Here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links)
 
+***
+
 ###Github Flavored Markdown aka GFM###
 I'd also like to highlight the Github exceptions since ultimately much of the markdown written will be for Readmes or Markdown files on Github. I will refer to them as GFM.
 
@@ -260,12 +262,33 @@ I'd also like to highlight the Github exceptions since ultimately much of the ma
 Github will autolink standard URLs (such as the ones I've shared) instead of needing to set link text.
 
 ####Strikethrough (GFM)####
-GFM adds syntax for strikethrough text, which is missing from standard Markdown. Use a set of tilde symbols (`~`) twice: `~~`Mistaken text.`~~` becomes:
+GFM adds syntax for strikethrough text, which is missing from standard Markdown. Use a set of tilde symbols (`~`) twice:
+
+Markdown:
+
+`~~`Mistaken text.`~~`
+
+Results:
+
 ~~Mistaken text.~~
 
 ###Fenced code blocks (GFM)###
 Standard Markdown converts text with four spaces at the beginning of each line into a code block; GFM also supports fenced blocks. Just wrap your code in ``` (as shown below) and you won't need to indent it by four spaces. Note that although fenced code blocks don't have to be preceded by a blank line—unlike indented code blocks—we recommend placing a blank line before them to make the raw Markdown easier to read.
 
+Markdown (I know, this is getting kind of 'meta'):
+
+    ```
+    Example1:
+    function test(){
+      console.log("this is a test using '```' before each line ")
+    }
+    ```
+        Example 2:
+        function test2(){
+          console.log("This is a test using four spaces '    ' before each line")
+        }
+
+Results:
 
 ```
 Example1:
@@ -287,7 +310,7 @@ For keywords please visit https://github.com/github/linguist/blob/master/lib/lin
 
 Code blocks can be taken a step further by adding syntax highlighting. In your fenced block, add an optional language identifier and we'll run it through syntax highlighting. For example, to syntax highlight Ruby code:
 
-Markdown Sample:
+Markdown:
 
     ```ruby
     require 'redcarpet'
@@ -302,7 +325,7 @@ markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
 ```
 
-
+***
 
 ####Tables (GFM)####
 You can create tables by assembling a list of words and dividing them with hyphens (`-`) for the first row. Then to create columns, separate each column with a pipe (`|`).
@@ -342,8 +365,6 @@ Markdown:
 | zebra stripes | are neat        |    $1 |
 ```
 Results:
-
-Here is how that looks:
 
 | Left-Aligned  | Center Aligned  | Right Aligned |
 | :------------ |:---------------:| -----:|
