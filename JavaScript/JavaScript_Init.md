@@ -4,11 +4,33 @@ Note: For a fantastic reference on terminal commands to start your first apps, p
 
 ##Introduction##
 
-###Node.js###
+###Node.js Setup###
 
-[Node.js](http://nodejs.org/) is a platform built on Chrome's JavaScript runtime for building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O (input/output) model great for data-intensive real-time applications that run across distributed devices.
+[Node.js](http://nodejs.org/) is a platform built on Chrome's JavaScript runtime for building fast, scalable network applications. Node.js allows your to write JavaScript code that can run on your computer free of any web browser. Node.js uses an event-driven, non-blocking I/O (input/output) model great for data-intensive real-time applications that run across distributed devices.
 
-How to start a Node.js app via the command line:
+You can also install Node-based tools tools using the NPM (Node Package Manager) to install them. [Grunt](http://gruntjs.com/) is a popular Node-based tool used to automate common tasks like compiling Sass files to CSS, making JavaScript files smaller so they load in less time and compressing images to smaller file sizes. [Bower](http://bower.io/) is a package manager for the web that manages all your web files: javascript, css and images.
+
+You can install Node JS and NPM on a Mac using [Homebrew](http://brew.sh/):
+
+```shell
+~ $ brew install node
+```
+
+In order to update and upgrade:
+
+```shell
+~ $ brew update
+~ $ brew upgrade node
+```
+
+You can also uninstall using Homebrew:
+
+```shell
+~ $ brew uninstall node
+```
+
+
+####How to start a Node.js app via the command line####
 
 ```shell
 ~ $ mkdir appName
@@ -33,7 +55,7 @@ Initialize with node package manager and install & save dependencies
 
 Create database and initialize sequelize
 
-```
+```shell
 ~ $ createdb appName
 ~ $ sqlize init
 
@@ -120,6 +142,9 @@ var server = app.listen(process.env.PORT || 3000, function() {
 });
 
 ```
+
+
+
 
 
 
