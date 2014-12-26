@@ -24,9 +24,7 @@ Keywords
 
 |Keyword | Description | Example|
 |--------|-------------|--------|
-|break   | Terminates a switch or a loop| ```
-Example
-``` |
+|break   | Terminates a switch or a loop| ` code ` |
 |
 |
 |
