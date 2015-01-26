@@ -43,16 +43,14 @@ Character Set
 
 
 
-ALERTS
-.alert()
+Popup Boxes
+window.alert("some text");
+window.confirm("some text");
+window.prompt("some text", "defaultText");
 
-window.alert()
 document.write()
 innerHTML
 console.log()
 
-
-.prompt()
-.confirm()
 
 LOOPS
