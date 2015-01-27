@@ -3,8 +3,7 @@
 ##Basics##
 
 
-Types of Objects:
-
+####Values####
 There are six basic types of values in JavaScript:
 
 1) numbers
@@ -14,7 +13,22 @@ There are six basic types of values in JavaScript:
 5) functions
 6) undefined values.
 
+####Operators####
+Unary
+Takes in one value
+| Operator | Function | Example |
+| -------- | -------- | ------- |
+| typeof | produces a string value naming the type of the value you give it | console.log(typof 4.5) // -> number |
 
+Binary
+Takes in two values
+|Operator | Function |
+|---------|----------|
+|+| adds two numbers or concatenates two strings|
+|/| divides two numbers|
+|*| multiplies two numbers|
+|-| subtracts two numbers|
+|%| finds remainder of two numbers when the first is divided by the second|
 
 SYNTAX
 statements separted by semicolon
