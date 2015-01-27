@@ -3,10 +3,24 @@
 ##Basics##
 
 
+Types of Objects:
+
+There are six basic types of values in JavaScript:
+
+1) numbers
+2) strings
+3) Booleans
+4) objects
+5) functions
+6) undefined values.
+
+
+
 SYNTAX
 statements separted by semicolon
 variable declaration
 Values, Operators, Expressions, Keywords and Comments
+
 Values:
 literals
   Numbers ( written with or without decimals)
