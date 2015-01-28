@@ -19,7 +19,7 @@ Takes in one value:
 
 | Operator | Function | Example |
 |----------|----------|---------|
-| typeof | produces a string value naming the type of the value you give it | console.log(typeof 4.5) gives "number" |
+| typeof | produces a string value naming the type of the value you give it | `console.log(typeof 4.5) // -> number` |
 
 #####Binary Operator#####
 Takes in two values:
