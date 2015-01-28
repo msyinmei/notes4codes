@@ -6,32 +6,41 @@
 ####Values####
 There are six basic types of values in JavaScript:
 
-1) numbers
-2) strings
-3) Booleans
-4) objects
+1) numbers - numbers. Special numbers include Infinity and -Infinity and NaN = "Not a number"
+2) strings - enclosed between "quotes"
+3) Booleans - true or false
+4) objects -
 5) functions
 6) undefined values.
 
 ####Operators####
-Unary
+#####Unary Operator#####
 Takes in one value
 | Operator | Function | Example |
 | -------- | -------- | ------- |
 | typeof | produces a string value naming the type of the value you give it | console.log(typof 4.5) // -> number |
 
-Binary
+#####Binary Operator#####
 Takes in two values
 |Operator | Function |
 |---------|----------|
-|+| adds two numbers or concatenates two strings|
+|+| adds two numbers or concatenates two strings |
 |/| divides two numbers|
 |*| multiplies two numbers|
 |-| subtracts two numbers|
 |%| finds remainder of two numbers when the first is divided by the second|
 
+#####Boolean#####
+true or false
+[Comparison Operators](http://www.w3schools.com/js/js_comparisons.asp)
+1) Greater than or less than or equal
+2) Strings can be compared: uppercase letters are always less than lowercase letters. Based on the [Unicode Standard](http://unicode.org/standard/standard.html) which assigns a number to every character you'll ever need.
+3) Only value not equal to itself is NaN
+
+
+
 SYNTAX
-statements separted by semicolon
+statements separated by semicolon
 variable declaration
 Values, Operators, Expressions, Keywords and Comments
 
