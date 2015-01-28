@@ -1,0 +1,1 @@
+Here, we compare the way code is written between JavaScript, Ruby, and Python. We will also compare the didifferent versions of each language with itself. Syntax is the focus here as well as a bit of function
