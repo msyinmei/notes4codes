@@ -37,9 +37,9 @@ Summary: "true or false"
 
 [Comparison Operators](http://www.w3schools.com/js/js_comparisons.asp)
 
-1) Greater than or less than or equal
-2) Strings can be compared: uppercase letters are always less than lowercase letters. Based on the [Unicode Standard](http://unicode.org/standard/standard.html) which assigns a number to every character you'll ever need.
-3) Only value not equal to itself is NaN
+1. Greater than or less than or equal to
+2. Strings can be compared: uppercase letters are always less than lowercase letters. Based on the [Unicode Standard](http://unicode.org/standard/standard.html) which assigns a number to every character you'll ever need.
+3. Only value not equal to itself is NaN
 
 
 
