@@ -18,8 +18,8 @@ There are six basic types of values in JavaScript:
 Takes in one value:
 
 | Operator | Function | Example |
-| -------- | -------- | ------- |
-| typeof | produces a string value naming the type of the value you give it | console.log(typof 4.5) // -> number |
+|----------|----------|---------|
+| typeof | produces a string value naming the type of the value you give it | console.log/(typeof)/ 4.5 number |
 
 #####Binary Operator#####
 Takes in two values:
